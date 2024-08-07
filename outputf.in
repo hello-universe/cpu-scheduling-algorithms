@@ -1,0 +1,9 @@
+Process   Arrival Time   Burst Time     Turn Around Time    Waiting Time   
+3         0              3              3                   0              
+1         4              5              5                   0              
+5         5              4              8                   4              
+2         6              4              11                  7              
+4         6              2              13                  11             
+
+Average Waiting Time: 4.40
+Average Turn Around Time: 8.00
