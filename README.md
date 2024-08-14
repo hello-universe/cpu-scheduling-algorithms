@@ -86,8 +86,7 @@ known as the dispatch latency.
 - **Issues**
   - **Convoy effect:**  If processes with higher burst time arrived before the processes with smaller burst time, then, smaller processes have to wait for a long time for longer processes to
 release the CPU.
-
-  - Inefficient for time-sharing systems.
+- Inefficient for time-sharing systems.
 
 ### Shortest Job First (SJF)
 
