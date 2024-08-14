@@ -1,0 +1,38 @@
+The first line of input is the number of processes(n), the second line of input is the burst time of n processes and the third line of
+input is the arrival time of the processes.
+In case of priority scheduling algorithms(both premptive and non-premptive) the fourth line of input contains the priority of n processes
+such that lower is the number higher is the priority
+In case of round robin scheduling the fourth line of input contains the time quantum.
+
+FCFS
+5
+5 4 3 2 4
+4 6 0 6 5
+
+SJF
+5
+1 4 2 6 3
+3 1 4 0 2
+
+SRTF
+5
+1 4 2 6 3
+3 1 4 0 2
+
+Priority non-premptive
+5
+4 3 1 5 2
+0 1 2 3 4
+5 4 3 2 2
+
+Priority premptive
+5
+4 3 1 5 2
+0 1 2 3 4
+5 4 3 2 2
+
+Round Robin
+5
+5 3 1 2 3
+0 1 2 3 4
+2
