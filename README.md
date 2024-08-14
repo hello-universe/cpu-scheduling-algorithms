@@ -110,7 +110,6 @@ Long processes may be held off indefinitely if short processes are continually a
 
 - CPU is allocated based on process priority.
 - It can be premptive or non-premptive.
-
 - **Issues** 
   - Starvation of low-priority processes, mitigated by aging (gradually increasing priority over time).
 
@@ -123,7 +122,6 @@ Long processes may be held off indefinitely if short processes are continually a
   - Starvation for long processes as they have to repeat the cycle many times.
   - Performance depends on time quantum size.
 Priorities cannot be set for processes.
-
 - **Key Insights**
   - **Smaller quantum:** Better response time, higher context switches.
   - **Larger quantum:** Fewer context switches, resembles FCFS with larger quantum.
